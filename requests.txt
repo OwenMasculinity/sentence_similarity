@@ -1,0 +1,7 @@
+numpy
+jieba
+math
+distance
+sklearn
+scipy
+gensim
