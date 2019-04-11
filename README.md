@@ -39,6 +39,6 @@ Word2Vec，顾名思义，其实就是将每一个词转换为向量的过程。
 
 这里采用训练好的模型包括：
 - [64维的Word2Vec模型](https://pan.baidu.com/s/1p8-_fP6N4C6lgjDLLe4CSg): 12g新闻数据，20g百度百科数据，90g小说数据 （提取码：hsqy）
-- [300维的Word2Vec模型](https://pan.baidu.com/s/1p_kUVc0StXrUTijQy0PtKg):[搜狐新闻数据](http://www.sogou.com/labs/resource/cs.php)(提取码：frip)
+- [300维的Word2Vec模型](https://pan.baidu.com/s/1p_kUVc0StXrUTijQy0PtKg): [搜狐新闻数据](http://www.sogou.com/labs/resource/cs.php)(提取码：frip)
 
 在获取 Sentence Vector 的时候，我们首先对句子进行分词，然后对分好的每一个词获取其对应的 Vector，然后将所有 Vector 相加并求平均，这样就可得到 Sentence Vector 了，然后再计算其夹角余弦值即可。
